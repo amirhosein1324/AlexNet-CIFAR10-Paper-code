@@ -18,13 +18,13 @@ AlexNet is a deep convolutional network that significantly influenced the field 
 
 ### Key features of the implementation:
 
-- ** Layer Structure: **  
+- Layer Structure: 
   The model follows the original AlexNet layout, adapted slightly for the smaller \( 32 \times 32 \) CIFAR-10 images (e.g., adjusting kernel sizes or the final fully connected layers).
 
-- **Training :**  
+- Training :
   Trained using the Adam optimizer and Cross-Entropy Loss over 20 epochs.
 
-- ** Framework: **  
+- Framework: 
   Built using PyTorch.
 
 ---
@@ -44,15 +44,16 @@ After 20 epochs of training, the model achieved the following performance on the
 
 | Metric                   | Value   |
 |--------------------------|---------|
-| Final Validation Accuracy | ** 82.55% ** |
+| Final Validation Accuracy | 82.55% |
 
 This accuracy demonstrates AlexNets capability to learn robust features even on low-resolution images.
 
 ---
 
-## 🛠️ Setup and Requirements
+## Setup and Requirements
 
 Install the required dependencies:
 
 ```bash
-pip install torch torchvision tqdm matplotlib
+pip install torch , torchvision  ,  tqdm , matplotlib
+
